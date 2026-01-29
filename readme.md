@@ -1,5 +1,8 @@
 # SRMU Attendance Automation (eYojan Portal)
-
+# Website Load Tester 
+![Python Version](https://img.shields.io/badge/python-3.11%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-active-success)
 > **For Educational and Personal Use Only**
 
 This project is a Python-based automation script that demonstrates how the **SRMU eYojan (PeopleSoft) portal** attendance report workflow can be automated.  
@@ -61,4 +64,5 @@ All steps are handled automatically using browser automation.
 ---
 
 ## Project Structure (Example)
+
 
