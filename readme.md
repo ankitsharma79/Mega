@@ -1,48 +1,64 @@
 # SRMU Attendance Automation (eYojan Portal)
 
-> **Educational & Personal Use Only**
+> **For Educational and Personal Use Only**
 
-An automated Python script to log in to the **SRMU eYojan portal**, generate the student attendance report, and download it as a PDF — without manual interaction.
+This project is a Python-based automation script that demonstrates how the **SRMU eYojan (PeopleSoft) portal** attendance report workflow can be automated.  
+It automates the complete process of logging in, navigating to the attendance section, generating the report, and downloading it as a PDF — without manual interaction.
 
-This project was researched, discovered, and developed by **Ankit Kumar Sharma**, a student of **BCA** at **Shri Ramswaroop Memorial University (SRMU)**.
-
----
-
-## Overview
-
-SRMU’s eYojan (PeopleSoft) portal requires multiple manual steps to access attendance reports.  
-This automation streamlines the entire flow:
-
-- Login to the portal
-- Navigate to the Attendance section
-- Generate the attendance report
-- Download the PDF automatically
-
-During research, an **OTP verification bypass** was identified in the workflow, which made full automation possible.  
-This repository demonstrates the automation **without exposing sensitive exploit logic**.
+This project was researched, designed, and developed by **Ankit Kumar Sharma**,  
+**BCA student**, **Shri Ramswaroop Memorial University (SRMU)**.
 
 ---
 
-## Features
+## Background
 
-- Automated login using Selenium + Undetected ChromeDriver
-- Automatic navigation to Attendance page
-- Attendance report generation
-- PDF download support
-- Uses `undetected_chromedriver` to avoid bot detection
-- Config-based credentials (no hardcoding)
+The SRMU eYojan portal requires several repetitive manual steps to access student attendance reports.  
+This includes login, verification checks, navigation across multiple pages, and report generation.
+
+The goal of this project was to:
+- Understand the portal workflow
+- Reduce repetitive manual effort
+- Demonstrate browser automation using Python and Selenium
+- Learn how modern portals handle verification and session validation
+
+During research, a workflow behavior was observed that made full automation technically possible.  
+**This repository does NOT expose any sensitive logic, exploits, or bypass mechanisms.**
 
 ---
 
-## Tech Stack
+## What This Project Does
 
-- **Python 3.10+**
-- **Selenium**
+The automation flow includes:
+
+1. Opens the SRMU eYojan portal
+2. Logs in using student credentials
+3. Navigates to the Attendance section
+4. Triggers attendance report generation
+5. Downloads the attendance report as a PDF
+
+All steps are handled automatically using browser automation.
+
+---
+
+## Key Features
+
+- Fully automated browser-based workflow
+- Attendance report generation without manual clicks
+- PDF download handling
+- Uses `undetected_chromedriver` to reduce bot detection
+- Credentials are read from a configuration file (no hardcoded data)
+- Designed for learning, research, and automation practice
+
+---
+
+## Technology Used
+
+- **Python 3.10 or higher**
+- **Selenium WebDriver**
 - **undetected-chromedriver**
-- **Google Chrome (v143 recommended)**
+- **Google Chrome (version 143 recommended)**
 
 ---
 
-## Important
+## Project Structure (Example)
 
-- **This code is a dummy version of my main code. it is just a reference not the real code. it wont work**
